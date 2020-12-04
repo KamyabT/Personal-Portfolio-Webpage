@@ -1,0 +1,135 @@
+/************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+}
+
+ul {
+  padding-right: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.navbarMainDesign {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.menuItemsDesign {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #be3144;
+}
+
+.menuItemsDesign li {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.menuItemsDesign li a {
+  display: block;
+  font-size: 22px;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+/************************************/
+.welcomeSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.welcomeSection h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 4em;
+  line-height: 1.4em;
+}
+
+.welcomeSection p {
+  color: #be3144;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+/***********************************/
+.portfolio {
+  background-color: #45567d;
+  padding: 100px 100px;
+}
+
+.portfolio h1 {
+  max-width: 640px;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  margin-bottom: 50px;
+}
+
+.portfolioItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/***************************************/
+.contactSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #303841;
+  height: 100vh;
+}
+
+.contactSection h1 {
+  color: white;
+}
+
+.contactSection p {
+  color: #f0f0f0;
+}
+/*# sourceMappingURL=style.css.map */
